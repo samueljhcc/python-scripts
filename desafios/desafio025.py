@@ -1,4 +1,6 @@
-frase = 'Vamos almoçar no RU hoje?'
+frase = input('Digite uma frase:')
+
+print(len(frase))
 
 print('A letra "a" aparece {} vezes na frase.'.format(frase.count('a')))
 print('A letra "a" aparece pela primeira vez no indice {}.'.format(frase.find('a')))
